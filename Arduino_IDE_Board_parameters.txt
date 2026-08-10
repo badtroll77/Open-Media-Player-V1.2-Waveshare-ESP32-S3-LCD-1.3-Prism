@@ -1,0 +1,34 @@
+Open Media Player v1.2 - Waveshare ESP32-S3-LCD-1.3 Prism
+
+Board: ESP32S3 Dev Module
+ESP32 Arduino Core: 3.2.0
+
+USB CDC On Boot: Disabled
+CPU Frequency: 240MHz (WiFi)
+Core Debug Level: None
+USB DFU On Boot: Disabled
+Erase All Flash Before Sketch Upload: Disabled
+Events Run On: Core 1
+Flash Mode: QIO 80MHz
+Flash Size: 16MB (128Mb)
+JTAG Adapter: Disabled
+Arduino Runs On: Core 1
+USB Firmware MSC On Boot: Disabled
+Partition Scheme: 16M Flash (3MB APP/9.9MB FATFS)
+PSRAM: OPI PSRAM
+Upload Mode: UART0 / Hardware CDC
+Upload Speed: 921600
+USB Mode: Hardware CDC and JTAG
+Zigbee Mode: Disabled
+
+Serial Monitor: 115200 baud
+Serial pins: UART0 TX GPIO43, RX GPIO44
+
+Libraries
+- Arduino GFX Library: 1.5.9
+- JPEGDEC: 1.8.4
+- Dev Device Pins: 0.0.3 (not used by this sketch)
+
+SD card files
+- Copy config.json, gpio.json, and optionally playlist.txt to the SD-card root.
+- Put MJPEG videos in the /mjpeg folder on the SD card.

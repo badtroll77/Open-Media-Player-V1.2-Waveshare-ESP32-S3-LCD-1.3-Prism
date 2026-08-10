@@ -1,0 +1,6 @@
+# Optional playback order: one .mjpeg filename per line.
+# To override config.json image_rotation for one video, use: filename.mjpeg | 90
+# Valid per-video rotations are 0, 90, 180, and 270 degrees clockwise.
+# Leave this file commented or remove it to play every file in /mjpeg.
+# example.mjpeg
+# portrait-video.mjpeg | 90

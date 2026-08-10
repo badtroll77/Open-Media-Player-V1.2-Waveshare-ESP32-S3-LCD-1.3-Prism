@@ -1,0 +1,27 @@
+{
+  // Screen backlight brightness: minimum 0, maximum 255.
+  "brightness": 255,
+
+  // MJPEG input buffer in KB: minimum 32, maximum 96.
+  "buffer_kb": 64,
+
+  // Playback frame rate: minimum 1, maximum 60. 15 matches the C6 player.
+  "target_fps": 15,
+
+  // Scan each selected file at start-up and report its frame-size compatibility.
+  "startup_scan": true,
+
+  // SD-card folder containing MJPEG files.
+  "mjpeg_folder": "/mjpeg",
+
+  // Valid values: "sequential", "shuffle", or "repeat_one".
+  "playback_mode": "sequential",
+
+  // "fit" preserves the whole frame; "fill" scales and centre-crops to fill 240 x 240.
+  // Valid values: "fit" or "fill". Fill uses extra RAM and safely falls back to fit if unavailable.
+  "display_mode": "fill",
+
+  // Clockwise image rotation for videos not given their own playlist rotation.
+  // Valid values: 0, 90, 180, or 270 degrees.
+  "image_rotation": 0
+}

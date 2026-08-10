@@ -1,0 +1,9 @@
+{
+  // External OMP playback button. Connect it between GPIO1 and GND.
+  // It is active-low; the firmware enables the ESP32's internal pull-up.
+  "button_pin": 1,
+  "button_active_low": true,
+
+  // Waveshare ESP32-S3-LCD-1.3 Prism display backlight GPIO.
+  "backlight_pin": 20
+}
